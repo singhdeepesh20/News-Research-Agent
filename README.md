@@ -30,13 +30,13 @@ It fetches article content from URLs, processes it into clean chunks, stores the
 ## 📂 Project Structure
 
 📁 News-Research-Agent
-│
-├── app.py # Main Streamlit app
-├── faiss_store_hf/ # FAISS vector store
-├── faiss_store_metadata.pkl # Vector store metadata
-├── requirements.txt # Python dependencies
-├── .env # API keys
-└── README.md # Project documentation
+
+-> app.py # Main Streamlit app
+-> faiss_store_hf/ # FAISS vector store
+-> faiss_store_metadata.pkl # Vector store metadata
+-> requirements.txt # Python dependencies
+-> .env # API keys
+-> README.md # Project documentation
 
 ---
 💡 Usage
@@ -54,6 +54,8 @@ Top 3 relevant chunks
 AI-generated answer
 
 Sources list
+
+--- 
 
 📜 Example
 
