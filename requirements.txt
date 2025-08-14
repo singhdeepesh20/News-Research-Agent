@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+langchain-groq
+faiss-cpu
+python-dotenv
+unstructured
+pandas
+pickle-mixin
+sentence-transformers
