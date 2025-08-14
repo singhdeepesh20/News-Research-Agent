@@ -10,9 +10,10 @@ from langchain.chains import RetrievalQAWithSourcesChain
 from langchain_community.vectorstores import FAISS
 
 # Load API Keys 
-load_dotenv()
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-HF_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
+import streamlit as st
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+HF_TOKEN = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
+
 
 if not GROQ_API_KEY or not HF_TOKEN:
     st.error("Please set GROQ_API_KEY and HUGGINGFACEHUB_API_TOKEN in your .env file.")
