@@ -5,7 +5,7 @@ It fetches article content from URLs, processes it into clean chunks, stores the
 
 ---
 
-## 🚀 Feature
+## 🚀 Features
 
 - **Multi-URL Article Loader** – Load up to 3 news article URLs at once.
 - **Smart Content Filtering** – Removes boilerplate junk like ads, cookie notices, and login prompts.
@@ -47,7 +47,7 @@ Click "Process URLs" to load, filter, and store the content in FAISS.
 
 Type your question in the input box.
 
-View:
+Views:
 
 Top 3 relevant chunks
 
