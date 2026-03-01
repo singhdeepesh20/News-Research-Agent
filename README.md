@@ -1,4 +1,4 @@
-# News-Research-Agent
+# News-Research-Agen
 
 An AI-powered research tool built with **Streamlit**, **LangChain**, **Groq LLaMA-3**, and **HuggingFace Embeddings** that helps you analyze and answer questions from multiple news articles.  
 It fetches article content from URLs, processes it into clean chunks, stores them in a FAISS vector database, and lets you ask intelligent questions with accurate source references.
