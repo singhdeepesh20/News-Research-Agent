@@ -5,7 +5,7 @@ It fetches article content from URLs, processes it into clean chunks, stores the
 
 ---
 
-## 🚀 Features
+## 🚀 Feature
 
 - **Multi-URL Article Loader** – Load up to 3 news article URLs at once.
 - **Smart Content Filtering** – Removes boilerplate junk like ads, cookie notices, and login prompts.
