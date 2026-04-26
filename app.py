@@ -9,7 +9,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains import RetrievalQAWithSourcesChain
 from langchain_community.vectorstores import FAISS
 
-# Load API Keys 
+ 
 import streamlit as st
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 HF_TOKEN = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
