@@ -1,6 +1,6 @@
 <div align="center">
 
-# News Research Agent
+## News Research Agent
 
 ### AI-Powered Multi-Source News Analysis & Question Answering System
 
@@ -8,7 +8,7 @@
 
 ---
 
-## Overview
+### Overview
 
 **News Research Agent** is an AI-driven research tool designed to analyze and extract insights from multiple news articles in real time.
 
