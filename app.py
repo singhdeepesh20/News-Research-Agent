@@ -19,7 +19,7 @@ if not GROQ_API_KEY or not HF_TOKEN:
     st.error("Please set GROQ_API_KEY and HUGGINGFACEHUB_API_TOKEN in your .env file.")
     st.stop()
 
-#  Streamlit Page Config 
+
 st.set_page_config(
     page_title="News Research Agent",
     page_icon="📉",
