@@ -138,7 +138,7 @@ if process_url_clicked:
 
         # Apply junk filter
         docs = [chunk for chunk in raw_chunks if not is_junk_chunk(chunk.page_content)]
-        st.info(f"✅ Filtered out {len(raw_chunks) - len(docs)} junk chunks. {len(docs)} clean chunks remain.")
+        st.info(f" Filtered out {len(raw_chunks) - len(docs)} junk chunks. {len(docs)} clean chunks remain.")
 
         # Store in FAISS
         vectorstore = FAISS.from_documents(docs, embeddings)
