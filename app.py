@@ -16,7 +16,7 @@ HF_TOKEN = st.secrets["HUGGINGFACEHUB_API_TOKEN"]
 
 
 if not GROQ_API_KEY or not HF_TOKEN:
-    st.error("Please set GROQ_API_KEY and HUGGINGFACEHUB_API_TOKEN in your .env file.")
+    st.error("Please enter GROQ_API_KEY and HUGGINGFACEHUB_API_TOKEN in your .env file.")
     st.stop()
 
 
