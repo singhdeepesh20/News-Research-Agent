@@ -86,7 +86,7 @@ process_url_clicked = st.sidebar.button("Process URLs")
 llm = ChatGroq(
     groq_api_key=GROQ_API_KEY,
     model="llama3-70b-8192",
-    temperature=0.0,
+    temperature=0.2,
     max_tokens=500
 )
 
